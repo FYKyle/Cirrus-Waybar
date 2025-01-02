@@ -6,4 +6,4 @@ Workspace icons are cloud based which are pleasant to look at especially for clo
 Installation:
 
 Copy the 'config' and 'style.css' files into your "~/.config/waybar/" directory.
-**WARNING THIS WILL REPLACE CURRENT config and style.css so MAKE BACKUPS BEFORE DOING SO!
+**WARNING THIS WILL REPLACE CURRENT config AND style.css SO MAKE BACKUPS BEFORE DOING SO!
