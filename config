@@ -1,0 +1,68 @@
+// -*- mode: jsonc -*-
+{ 
+    "position": "top", // Waybar position (top|bottom|left|right)
+    "height": 35, // Waybar height (to be removed for auto height) 30
+    "spacing": 13, // Gaps between modules (4px)
+    
+    // Choose the order of the modules
+    "modules-left": [
+        "hyprland/workspaces",
+    ],
+    "modules-center": [
+        "clock"
+    ],
+
+    "modules-right": [
+        "tray",
+	"network",
+	"pulseaudio"
+    ],
+     "hyprland/workspaces": {
+         "disable-scroll": true,
+         "all-outputs": false, //true
+         "warp-on-scroll": false,
+         "format": "{icon}",
+         "format-icons": {
+             "2": "",
+             "4": "",
+	     "6": "",
+	     "8": "",
+             "urgent": "",
+             "active": "",
+             "default": ""
+         }
+    "tray": {
+        // "icon-size": 21,
+        "spacing": 10
+    },
+    "clock": {
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>", 
+	"format": "[ {:%I:%M %p} ]",
+	"format-alt": "{:%m/%d/%Y}"
+    },
+    "network": {
+        "format-wifi": "[  {signalStrength}% ]",
+        "format-ethernet": "{ipaddr}/{cidr} ",
+        "tooltip-format": "{ifname} via {gwaddr} ",
+        "format-linked": "{ifname} (No IP) ",
+        "format-disconnected": "Disconnected ⚠",
+        "format-alt": "[  {essid} ]"
+    },
+    "pulseaudio": {
+        "format": "[ {icon} {volume}% {format_source}",
+        "format-bluetooth": "[ {volume}% {icon} {format_source}",
+        "format-bluetooth-muted": "[  {icon} {format_source}",
+        "format-muted": "[  {format_source}",
+        "format-source": " {volume}% ]",
+        "format-source-muted": " ]",
+        "format-icons": {
+            "headphone": "",//"",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        },
+        "on-click": "pavucontrol"
+}
