@@ -31,15 +31,15 @@ button {
 #pulseaudio,
 #tray,
 #workspaces {
-    text-shadow: 2px 2px black; /*2 2 */
+    text-shadow: 2px 2px black; 
 }
 
 .modules-left > widget:first-child > #workspaces {
     margin-left: 4.37;
 }
 
-.modules-right > widget:last-child > #tray{
-    margin-right: 4.39;
+.modules-right > widget:last-child > #pulseaudio{
+    margin-right: 4.37;
 
 }
 
