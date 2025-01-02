@@ -3,3 +3,4 @@ Workspace icons are cloud based which are pleasant to look at especially for clo
 
 
 ![Showcasephoto!](ShowcasePhoto1.png)
+![Showcasephoto!](ShowcasePhoto2.png)
