@@ -4,7 +4,7 @@ Hello, this is my simple bitmap Waybar called 'Cirrus' for use with the Arch Lin
 Workspace icons are cloud based which are pleasant to look at especially for cloud lovers. 
 
 ![Showcasephoto!](ShowcasePhoto1.png)
-![Showcasephoto!](ShowcasePhoto2WithInfo.png)
+![Showcasephoto!](ShowcasePhoto2Info.png)
 
 Dependencies:
   
